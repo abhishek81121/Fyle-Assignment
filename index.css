@@ -1,0 +1,46 @@
+.contact-body {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-right: 17vw;
+  padding-left: 17vw;
+}
+.contact-button {
+  background-color: #ff3147;
+  border-color: #ff3147;
+  background: #ff3147 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  margin-top: 5vh;
+}
+.contact-button:hover {
+  background-color: #ff3147;
+  border-color: #ff3147;
+  background: #ff3147 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+}
+.contact-button:active {
+  background-color: #ff3147;
+  border-color: #ff3147;
+  background: #ff3147 0% 0% no-repeat padding-box;
+}
+.text-award {
+  font: normal normal 600 30px/80px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.text-digital {
+  font: normal normal bold 40px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 5vh;
+}
+.contact-image {
+  box-sizing: content-box;
+  height: 80vh;
+  width: 100%;
+}
