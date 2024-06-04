@@ -249,3 +249,12 @@ html {
   text-transform: uppercase;
   opacity: 1;
 }
+.footer {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+  background-color: #ff3147;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
