@@ -39,6 +39,9 @@ html {
   padding-left: 17vw;
 }
 .contact-button {
+  height: 6vh;
+  width: 10vw;
+  color: white;
   background-color: #ff3147;
   border-color: #ff3147;
   background: #ff3147 0% 0% no-repeat padding-box;
