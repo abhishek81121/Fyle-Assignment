@@ -77,14 +77,19 @@ html {
 }
 .text-what {
   text-align: left;
-  font: normal normal 600 24px/26px Cormorant SC;
+  font: normal normal 600 24px/26px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
   letter-spacing: 0px;
   color: #ff3147;
   opacity: 1;
 }
 .text-services {
   text-align: left;
-  font: normal normal bold 45px/65px Cormorant SC;
+  font: normal normal bold 45px/65px;
+  font-size: 45px;
+  line-height: 65px;
   letter-spacing: 0px;
   color: #000000;
   text-transform: uppercase;
@@ -161,4 +166,40 @@ html {
   border-radius: 50%; /* Makes the element a circle */
   background-color: #ff3147; /* Inner circle color */
   position: absolute; /* Ensures it is centered inside the outer circle */
+}
+.project-body {
+  width: 100vw;
+  padding-left: 17vw;
+  padding-right: 17vw;
+}
+.text-choose {
+  font: normal normal 600 24px/26px;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #ff3147;
+  opacity: 1;
+}
+.card-choose {
+  display: flex;
+  flex-direction: column;
+}
+.card-choose-text {
+  font: normal normal normal 16px/26px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.card-choose-heading {
+  text-align: left;
+  font: normal bold medium px;
+  font-size: 19px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
 }
