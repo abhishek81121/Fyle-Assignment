@@ -221,3 +221,31 @@ html {
   background-color: #ff3147;
   color: white;
 }
+.growth-body {
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  padding-left: 17vw;
+  padding-right: 17vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.growth-card {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.growth-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.growth-number {
+  font: normal normal 300 60px/65px;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
