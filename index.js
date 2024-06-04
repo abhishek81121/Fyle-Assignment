@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
   var textForImages = document.querySelectorAll(".project-image-text");
-  console.log(textForImages);
+  console.log(document.getElementById("project-image"));
   textForImages.forEach(function (element, index) {
     element.addEventListener("click", function () {
       if (index == 0) {
-        // document.getElementById("#project-image").setAttribute("src", "");
+        document.getElementById("project-image").src = "resources/2.png";
         document
           .querySelectorAll(".project-image-text-active")[0]
           .classList.remove("project-image-text-active");
         textForImages[0].classList.add("project-image-text-active");
       } else if (index == 1) {
-        // document.getElementById("#project-image").setAttribute("src", "");
+        document.getElementById("project-image").src = "./resources/fruit.jpeg";
         document
           .querySelectorAll(".project-image-text-active")[0]
           .classList.remove("project-image-text-active");
         textForImages[1].classList.add("project-image-text-active");
       } else {
-        // document.getElementById("#project-image").setAttribute("src", "");
+        document.getElementById("project-image").src = "resources/2.png";
         document
           .querySelectorAll(".project-image-text-active")[0]
           .classList.remove("project-image-text-active");
