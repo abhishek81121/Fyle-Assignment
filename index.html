@@ -32,7 +32,12 @@
             Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
             lacus nec risus finibus feugiat et fermentun
           </div>
-          <button type="button" class="btn btn-primary btn-lg contact-button">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg contact-button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             Contact Us
           </button>
         </div>
@@ -608,6 +613,80 @@
     </div>
     <div class="footer">
       <img src="./resources/Group.png" style="height: 7vh; width: 80vw" />
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Talk To Us</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="https://getform.io/f/pamqlqwa" method="POST">
+            <span style="color: #6f718f99">Work email*</span>
+            <div class="container text-center" style="margin-top: 3vh">
+              <div class="row">
+                <div class="col" style="display: inline">
+                  <input
+                    type="text"
+                    name="First Name"
+                    style="
+                      border: 0;
+                      border-bottom: 2px solid #6f718f99;
+                      width: 100%;
+                      outline: none;
+                      color: #6f718f99;
+                    "
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="col" style="display: inline">
+                  <input
+                    type="text"
+                    name="Last Name"
+                    style="
+                      border: 0;
+                      border-bottom: 2px solid #6f718f99;
+                      width: 100%;
+                      outline: none;
+                      color: #6f718f99;
+                    "
+                    placeholder="Last Name"
+                  />
+                </div>
+
+              </div>
+            </div>
+            <div class="" style="margin-top: 3vh;display: flex;">
+              <div style="width: 10%;">
+                <input type="checkbox" style="height: 2vh; width: 2vw;" name="subscribe" value="yes" checked> </div>
+              <div style="width: 90%; color: #6f718f99;">I agree to Fyle's terms and conditions, and provide consent to send me communication.</div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
